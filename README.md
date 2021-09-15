@@ -25,9 +25,9 @@ Este módulo hace la integración de los demás módulos del sistema para garant
 
 ## 💻 Presentación del equipo:
 **1. Juan Esteban Montoya García:**<br>
-Soy ingeniero industrial y administrador de empresa. Tengo conocimientos básicos de bases de datos y analítica de datos. En cuanto a desarrollo de software, mis conocimientos son los adquiridos durante el ciclo I y II del programa MisionTIC<br>
+Soy ingeniero industrial y administrador de empresa. Tengo conocimientos básicos de bases de datos y analítica de datos. En cuanto a desarrollo de software, mis conocimientos son los adquiridos durante el ciclo I y II del programa MisionTI.C<br>
 **2. Carlos Alberto Muñoz B:**<br>
-Soy tecnólogo en redes de datos y administrador de empresas. Trabajo actualmente como coordinador de servicios en una empresa de tecnología. Tengo conocimientos previos en infraestructura y me interesa mucho el aprendizaje de las herramientas de desarrollo<br>
+Soy tecnólogo en redes de datos y administrador de empresas. Trabajo actualmente como coordinador de servicios en una empresa de tecnología. Tengo conocimientos previos en infraestructura y me interesa mucho el aprendizaje de las herramientas de desarrollo.<br>
 **3. Christian:**<br>
 Descripción aquí<br>
 **4. Raul Florez:** Soy ingeniero químico y actualmente trabajo en Canadá. Me interesa aprender acerca  del desarrollo web, particularmente todo lo relacionado con el desarrollo backend. Mis conocimientos previos en el area de sistemas son los que he adquirido en los ciclos I y II de MisionTic.<br>
