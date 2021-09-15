@@ -30,5 +30,5 @@ Descripción aquí<br>
 Descripción aquí<br>
 **3. Christian:**<br>
 Descripción aquí<br>
-**4. Raul Florez:** Soy ingeniero químico y actualmente trabajo en Canadá. Me interesa aprender acerca  del desarrollo web, particularmente todo lo relacionado con el desarrollo backend. Mis conocimientos previos en el area de sistemas son los que he adquierido en los ciclos I y II de MisionTic**<br>
+**4. Raul Florez:** Soy ingeniero químico y actualmente trabajo en Canadá. Me interesa aprender acerca  del desarrollo web, particularmente todo lo relacionado con el desarrollo backend. Mis conocimientos previos en el area de sistemas son los que he adquierido en los ciclos I y II de MisionTic<br>
 **5. Jefferson Duvan Ramirez:** Soy un estudiante de Ingeniería de sistemas, vivo en la ciudad de Bogotá, tengo experiencia con python, java, c++ y estoy interesado en mejorar mis habilidades de desarrollo web.<br>
