@@ -24,7 +24,7 @@ Este módulo hace la integración de los demás módulos del sistema para garant
 - Javascript
 
 ## 💻 Presentación del equipo:
-**1. Juan:**<br>
+**1. Juan Esteban Montoya García:**<br>
 Descripción aquí<br>
 **2. Carlos Alberto Muñoz B:**<br>
 Soy tecnólogo en redes de datos y administrador de empresas. Trabajo actualmente como coordinador de servicios en una empresa de tecnología. Tengo conocimientos previos en infraestructura y me interesa mucho el aprendizaje de las herramientas de desarrollo<br>
