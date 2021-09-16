@@ -32,3 +32,17 @@ Soy tecnólogo en redes de datos y administrador de empresas. Trabajo actualment
 hola soy Comunicador, vivo en la ciuidad de Bogotà, considero que la programaciòn es una nueva forma de adaptarse a los cambios tecnologicos,deseo aprender mucho, aun estoy en pañales frente a los lenguajes de programaciòn pero soy partidiario de la frase, "cuando se quiere se busca una manera, cuando no se buscan excusas", me comprometo a realizar lo primero.  
 **4. Raul Florez:** Soy ingeniero químico y actualmente trabajo en Canadá. Me interesa aprender acerca  del desarrollo web, particularmente todo lo relacionado con el desarrollo backend. Mis conocimientos previos en el area de sistemas son los que he adquirido en los ciclos I y II de MisionTic.<br>
 **5. Jefferson Duvan Ramirez:** Soy un estudiante de Ingeniería de sistemas, vivo en la ciudad de Bogotá, tengo experiencia con python, java, c++ y estoy interesado en mejorar mis habilidades de desarrollo web.<br>
+
+## 📋 Aclaraciones:
+![image](https://user-images.githubusercontent.com/82006611/132962234-93b376ee-e946-4e37-9d0c-0e1be98e2a8c.png)<br>
+
+En esta branch del proyecto se alojaran todos las resultados de las historias de los usuarios por cada sprint siguiente la siguiente metodología:<br>
+
+1. Cada Sprint tendrá un branch <br>
+2. Cada historia de usuaria tendra un branch, el cual se identificará asi:<br>
+
+        (Numero de la historia) - actividad a realizar
+
+3. Una vez terminada cada historia esta serán unidas para luego realizar el merge a la branch del sprint correspondiente.
+
+
