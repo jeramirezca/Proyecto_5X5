@@ -4,7 +4,7 @@
 
 El presente proyecto tiene como finalidad desarrollar una aplicación de software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento. <br>
 Para este fin la aplicación cuenta con los siguientes módulos:
-- **Módulo administrador de ventas:** Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. Tiene un identificador único de venta, almacena el valor total de la venta y la descripción detallada de la misma y tiene una fecha inicial y una fecha futura de pago. Además, cuenta con un encargado de gestionar dicha venta (responsable).
+- **Módulo administrador de ventas:** Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. Tiene un identificador único de venta, almacena el valor total de la venta y la descripción detallada de la misma y tiene una fecha inicial y una fecha futura de pago. Además, cuenta con un encargado de gestionar dicha venta (responsable)
 
 - **Módulo para registrar el estado de la venta:** Permite establecer los diferentes estados de la venta a lo largo del ciclo de vida de la línea de producción (creación, embalaje, despacho, ruta, ubicación, recepción).  
 
@@ -28,7 +28,6 @@ Este módulo hace la integración de los demás módulos del sistema para garant
 Soy ingeniero industrial y administrador de empresa. Tengo conocimientos en analítica de datos y de bases de datos. En cuanto a desarrollo de software, mis conocimientos son los adquiridos durante el ciclo I y II del programa MisionTIC.<br>
 **2. Carlos Alberto Muñoz B:**<br>
 Soy tecnólogo en redes de datos y administrador de empresas. Trabajo actualmente como coordinador de servicios en una empresa de tecnología. Tengo conocimientos previos en infraestructura y me interesa mucho el aprendizaje de las herramientas de desarrollo.<br>
-**3. Christian:**<br>
-Descripción aquí<br>
+**3. Christian:**<br>hola soy Comunicador,vivo en la ciuidad de Bogotà, considero que la programaciòn es una nueva forma de adaptarse a los cambios tecnologicos,deseo aprender mucho, aun estoy en pañales frente a los lenguajes de programaciòn pero soy partidiario de la frase, "cuando se quiere se busca una manera, cuando no se buscan excusas, me comprometo a realizar lo primero. í<br>
 **4. Raul Florez:** Soy ingeniero químico y actualmente trabajo en Canadá. Me interesa aprender acerca  del desarrollo web, particularmente todo lo relacionado con el desarrollo backend. Mis conocimientos previos en el area de sistemas son los que he adquirido en los ciclos I y II de MisionTic.<br>
 **5. Jefferson Duvan Ramirez:** Soy un estudiante de Ingeniería de sistemas, vivo en la ciudad de Bogotá, tengo experiencia con python, java, c++ y estoy interesado en mejorar mis habilidades de desarrollo web.<br>
