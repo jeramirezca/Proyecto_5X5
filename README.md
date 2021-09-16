@@ -34,7 +34,6 @@ hola soy Comunicador, vivo en la ciuidad de Bogotà, considero que la programaci
 **5. Jefferson Duvan Ramirez:** Soy un estudiante de Ingeniería de sistemas, vivo en la ciudad de Bogotá, tengo experiencia con python, java, c++ y estoy interesado en mejorar mis habilidades de desarrollo web.<br>
 
 ## 📋 Aclaraciones:
-![image](https://user-images.githubusercontent.com/82006611/132962234-93b376ee-e946-4e37-9d0c-0e1be98e2a8c.png)<br>
 
 En esta branch del proyecto se alojaran todos las resultados de las historias de los usuarios por cada sprint siguiente la siguiente metodología:<br>
 
