@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito','Courier New', Courier, monospace
+    font-family: "Roboto",'Courier New', Courier, monospace
 }
 
 body{
@@ -34,7 +34,7 @@ body{
 .barra_lateral .logo_v{
     transition: all 0.5s ease;
     display: flex;
-    height: 50px;
+    height: 33px;
     width: auto;
     margin-right: 10px;
     align-items: center;
@@ -52,12 +52,13 @@ body{
 }
 
 .barra_lateral.activo .logo{
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
     opacity: 1;
 }
 
 .barra_lateral .nombre_logo{
-    width: 120px;
+    transition: all 0.1s ease;
+    width: 110px;
 }
 
 .barra_lateral #simbolo_menu{
@@ -162,11 +163,10 @@ body{
 
 .barra_lateral svg{
     overflow: unset;
-    overscroll-behavior: unset;
     position:static;
-    transition: all 0.2s ease;
     margin: 10px;
-    margin-left: 13px;
+    margin-left: 11px;
+    transition: all 0.2s ease;
     margin-right: 15px;
     width: 30px;
     height: auto;
@@ -195,7 +195,6 @@ header{
     align-items: center;
     color: #fefefe;
     font-size: 18px;
-    font-weight: bolder;
 }
 
 header .rol_usuario{
