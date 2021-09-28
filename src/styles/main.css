@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",'Courier New', Courier, monospace
+}
+
+body{
+    position:relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    font-weight:b normal;
+}
+
+.barra_lateral{
+    min-height: 400px;
+    position: fixed;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100%;
+    width: 78px;
+    background-color: #031C1C;
+    padding: 7px 14px;
+    transition: all 0.5s ease;
+}
+
+.barra_lateral.activo{
+    width: 240px;
+}
+
+.barra_lateral .logo_v{
+    transition: all 0.5s ease;
+    display: flex;
+    height: 33px;
+    width: auto;
+    margin-right: 10px;
+    align-items: center;
+    opacity: 1;
+}
+
+.barra_lateral .logo_barra .logo{
+    transition: all 0.5s ease;
+    color: #fefefe;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+}
+
+.barra_lateral.activo .logo{
+    transition: all 0.1s ease;
+    opacity: 1;
+}
+
+.barra_lateral .nombre_logo{
+    transition: all 0.1s ease;
+    width: 110px;
+}
+
+.barra_lateral #simbolo_menu{
+    position: absolute;
+    fill: #fefefe;
+    left: 40%;
+    top: 8px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 50px;
+    transform:translateX(-50%) ;
+}
+
+.barra_lateral.activo #simbolo_menu{
+    left: 85%;
+}
+
+.barra_lateral ul{
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    flex-flow: column;
+}
+
+.barra_lateral ul li{
+    position: relative;
+    left: 5px;
+    height: 50px;
+    width: 100%;
+    margin-right: 5px;
+    list-style: none;
+    line-height: 50px;
+    top: 20px;
+}
+
+.barra_lateral .tooltip{
+    position: absolute;
+    font-size: 17px;
+    font-weight: bolder;
+    height: 35px;
+    width: 122px;
+    left: 122px;
+    top: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    line-height: 35px;
+    text-align: center;
+    background: #84b522;
+    box-shadow: 0px 5px 10px #707a7a;
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    z-index: 3;
+}
+
+.barra_lateral.activo .tooltip{
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.barra_lateral li:hover .tooltip{
+    top: 50%;
+    transition: all 0.5s ease;
+    opacity: 1;
+
+}
+
+.barra_lateral .nav_lista a{
+    fill:#fefefe;
+    color: #fefefe;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition:all 0.4s ease;
+    border-radius: 20px;
+    white-space: nowrap;
+    align-content: space-around;
+}
+
+.barra_lateral .nav_lista a:hover{
+    transition: all 0.5s ease;
+    fill: #031C1C;
+    color: #031C1C;
+    background: #84b522;
+}
+
+.barra_lateral ul i{
+    transition: all 0.2s ease;
+    font-size: 30px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.barra_lateral svg{
+    overflow: unset;
+    position:static;
+    margin: 10px;
+    margin-left: 11px;
+    transition: all 0.2s ease;
+    margin-right: 15px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+}
+
+.barra_lateral .nombres_links{
+    transition: all 0.2s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.barra_lateral.activo .nombres_links{
+    transition: all 0.2s ease;
+    opacity: 1;
+    pointer-events: auto;
+    font-size: 17px;
+}
+
+header{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    background-color:#031c1cc9;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fefefe;
+    font-size: 18px;
+}
+
+header .rol_usuario{
+    display: flex;
+    margin-right: 20px ;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.contenido_pag{
+    position: absolute;
+    display: flex;
+    left:78px;
+    width: calc(100vw - 78px);
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.barra_lateral.activo ~ .contenido_pag{
+    left: 240px;
+    width: calc(100vw - 240px);   
+    transition: all 0.5s ease;
+}
+
+.inicio{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.inicio .cuadros{
+    min-width: 100px ;
+    position: relative;
+    height: 15vh;
+    width: 20vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: row ;
+    background-color: #84b52285;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    transition: all 0.5s ease;
+}
+
+.inicio .cuadros:hover{
+    background-color: #84b522;
+    transition: all 0.5s ease;
+}
+
+.inicio .iconos_inicio{
+    margin-right: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.inicio .contenido{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
