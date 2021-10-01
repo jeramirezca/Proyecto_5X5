@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto",'Courier New', Courier, monospace
-}
-
-body{
-    position:relative;
-    overflow: hidden;
-    min-height: 100vh;
-    width: 100%;
-    font-weight:b normal;
-}
-
 .barra_lateral{
+    z-index: 3;
     min-height: 400px;
     position: fixed;
     border-top-right-radius: 20px;
@@ -62,10 +46,11 @@ body{
 }
 
 .barra_lateral #simbolo_menu{
+    cursor: pointer;
     position: absolute;
     fill: #fefefe;
-    left: 40%;
-    top: 8px;
+    left: 55%;
+    top: 13px;
     height: 25px;
     width: 25px;
     text-align: center;
@@ -86,6 +71,17 @@ body{
     align-content: flex-end;
     align-items: center;
     flex-flow: column;
+}
+
+.cajasSidebar{
+    position: relative;
+    left: 5px;
+    height: 50px;
+    width: 100%;
+    margin-right: 5px;
+    list-style: none;
+    line-height: 50px;
+    top: 20px;
 }
 
 .barra_lateral ul li{
@@ -161,7 +157,7 @@ body{
     text-align: center;
 }
 
-.barra_lateral svg{
+.barra_lateral .iconos_link{
     overflow: unset;
     position:static;
     margin: 10px;
@@ -186,80 +182,21 @@ body{
     font-size: 17px;
 }
 
-header{
-    height: 55px;
-    width: 100%;
-    display: flex;
-    background-color:#031c1cc9;
-    justify-content: flex-end;
-    align-items: center;
+.contenidoCajas{
+    padding: 5 px;
+    fill:#fefefe;
     color: #fefefe;
-    font-size: 18px;
-}
-
-header .rol_usuario{
     display: flex;
-    margin-right: 20px ;
-    margin-left: 20px;
     align-items: center;
+    text-decoration: none;
+    transition:all 0.4s ease;
+    border-radius: 20px;
+    white-space: nowrap;
+    align-content: space-around;
 }
 
-.contenido_pag{
-    position: absolute;
-    display: flex;
-    left:78px;
-    width: calc(100vw - 78px);
-    height: 100%;
-    transition: all 0.5s ease;
+@media (max-width: 768px){
+    .contenidoCajas{
+        text-align: center;
+    }
 }
-
-.barra_lateral.activo ~ .contenido_pag{
-    left: 240px;
-    width: calc(100vw - 240px);   
-    transition: all 0.5s ease;
-}
-
-.inicio{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-}
-
-.inicio .cuadros{
-    min-width: 100px ;
-    position: relative;
-    height: 15vh;
-    width: 20vw;
-    margin: 10px;
-    display: flex;
-    flex-direction: row ;
-    background-color: #84b52285;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    transition: all 0.5s ease;
-}
-
-.inicio .cuadros:hover{
-    background-color: #84b522;
-    transition: all 0.5s ease;
-}
-
-.inicio .iconos_inicio{
-    margin-right: 10px;
-    width: 40px;
-    height: auto;
-}
-
-.inicio .contenido{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
