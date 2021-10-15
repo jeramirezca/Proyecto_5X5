@@ -1,0 +1,18 @@
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color:#031c1cc9;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fefefe;
+    font-size: 18px;
+}
+
+header .rol_usuario{
+    display: flex;
+    margin-right: 20px ;
+    margin-left: 20px;
+    align-items: center;
+    z-index: 2;
+}
