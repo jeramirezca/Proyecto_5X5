@@ -1,0 +1,63 @@
+.textoEliminar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.opcionesEliminar{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonEliminar{
+    margin: 10px;
+    width: 30%;
+    height: 40px;
+    border-radius: 7px;
+    color: black;
+    font-size: 25px;
+
+}
+
+.si{
+    background-color: #84b52256;
+    transition: all 0.5s ease;
+}
+
+.si:hover{
+    background-color: #84b522;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.no{
+    background-color: #b5222273;
+    transition: all 0.5s ease;
+}
+
+.no:hover{
+    background-color: #b52222;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.confirmarEdicion{
+    font-size: 18px;
+    color: #84b522c2;
+}
+
+.confirmarEdicion:hover{
+    font-size: 20px;
+    color: #84b522;
+}
+
+.cancelarEdicion{
+    font-size: 18px;
+    color: #b52222c2;
+}
+
+.cancelarEdicion:hover{
+    font-size: 20px;
+    color: #b52222;
+}

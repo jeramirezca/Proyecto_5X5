@@ -1,0 +1,58 @@
+.navegacion{
+    display: none;
+}
+
+@media (max-width: 768px),(max-height: 330px){
+    .barra_lateral{
+        display: none;
+    }
+
+    .barra_lateral.activo{
+        display: none;
+    }
+
+    .headerPrivate{
+        display: none;
+    }
+
+    .barra_lateral ~ .contenido_pag{
+        left: 0px;
+        width: 100%;           
+    }
+
+    .barra_lateral.activo ~ .contenido_pag{
+        left: 0px;
+        width: 100%;           
+    }
+
+    .navegacion{
+        display:block;
+        width: 100vw;
+        height: auto;
+        background-color: #031C1C;
+        padding: 10px;
+    }
+
+    .navegacion ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .navegacion a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #fefefe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 10vw;
+    }
+
+    .iconos_navbar{
+        width: 25px;
+        margin-bottom: 2px;
+    }
+}
