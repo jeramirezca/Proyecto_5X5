@@ -119,7 +119,7 @@ const TablaUsuarios = ({ listaUsuarios, setEjecutarConsulta }) => {
               <th>ROL</th>
               <th>ESTADO</th>
               <th className="h-l">
-                editar
+                EDITAR
               </th>
             </tr>
           </thead>
