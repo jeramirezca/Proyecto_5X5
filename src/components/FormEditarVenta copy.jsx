@@ -226,7 +226,7 @@ function FormEditarVenta({ venta }) {
               onChange={(e) => setInfoNuevoVenta({ ...infoNuevoVenta, fechaVenta: e.target.value })} />
           </div>
           <div className="mt-20">
-            <label htmlfor="estado" className="table-top semi-bold label-form color-label">Estado</label>
+            <label htmlFor="estado" className="table-top semi-bold label-form color-label">Estado</label>
             <select value={infoNuevoVenta.estado}
               id="estado"
               name="estado"

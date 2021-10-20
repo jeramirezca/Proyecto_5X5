@@ -68,7 +68,7 @@ const FormUsuario = () =>{
                         onSubmit={submitFormUsuario}
                         >
                             <div className="mt-20">
-                                <label htmlfor="usuario" className ="fontSize-s semi-bold label-form color-label">Usuario</label>
+                                <label htmlFor="usuario" className ="fontSize-s semi-bold label-form color-label">Usuario</label>
                                 <input   
                                 id="usuario" 
                                 name="usuario" 
@@ -81,7 +81,7 @@ const FormUsuario = () =>{
                                 />
                            </div>
                            <div className="mt-20">
-                                <label htmlfor="rol" className ="fontSize-s semi-bold label-form color-label">Rol</label>
+                                <label htmlFor="rol" className ="fontSize-s semi-bold label-form color-label">Rol</label>
                                 <input  
                                 id="rol"
                                 name="rol"
@@ -91,7 +91,7 @@ const FormUsuario = () =>{
                                 ></input>                               
                             </div>
                             <div className="mt-20">
-                                <label htmlfor="estado" className ="fontSize-s semi-bold label-form color-label">Estado</label>
+                                <label htmlFor="estado" className ="fontSize-s semi-bold label-form color-label">Estado</label>
                                 <select  
                                 id="estado" 
                                 name="estado" 

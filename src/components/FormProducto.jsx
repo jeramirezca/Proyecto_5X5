@@ -68,7 +68,7 @@ const FormProducto = () => {
                         onSubmit={submitFormProducto}
                     >
                         <div className="mt-20">
-                            <label htmlfor="codigoproducto" className="fontSize-s semi-bold label-form color-label">Código Producto</label>
+                            <label htmlFor="codigoproducto" className="fontSize-s semi-bold label-form color-label">Código Producto</label>
                             <input
                                 id="codigoproducto"
                                 name="codigoProducto"
@@ -79,7 +79,7 @@ const FormProducto = () => {
                             />
                         </div>
                         <div className="mt-20">
-                            <label htmlfor="descripcion" className="fontSize-s semi-bold label-form color-label">Descripción</label>
+                            <label htmlFor="descripcion" className="fontSize-s semi-bold label-form color-label">Descripción</label>
                             <input
                                 id="descripcion"
                                 name="descripcionProducto"
@@ -90,7 +90,7 @@ const FormProducto = () => {
                             ></input>
                         </div>
                         <div className="mt-20">
-                            <label htmlfor="valorunit" className="fontSize-s semi-bold label-form color-label">Valor Unitario</label>
+                            <label htmlFor="valorunit" className="fontSize-s semi-bold label-form color-label">Valor Unitario</label>
                             <input
                                 id="valorunit"
                                 type="number"
@@ -102,7 +102,7 @@ const FormProducto = () => {
                                 required />
                         </div>
                         <div className="mt-20">
-                            <label htmlfor="estado" className="fontSize-s semi-bold label-form color-label">Estado</label>
+                            <label htmlFor="estado" className="fontSize-s semi-bold label-form color-label">Estado</label>
                             <select
                                 id="estado"
                                 name="estado"

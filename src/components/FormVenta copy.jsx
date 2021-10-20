@@ -171,7 +171,7 @@ function FormVenta() {
           </div>
 
           <div className="mt-20">
-            <label htmlfor="estado" className="table-top semi-bold label-form color-label">Estado</label>
+            <label htmlFor="estado" className="table-top semi-bold label-form color-label">Estado</label>
             <select
               id="estado"
               name="estado"

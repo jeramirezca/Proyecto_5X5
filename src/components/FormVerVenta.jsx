@@ -128,9 +128,6 @@ const FilaVenta = ({ venta }) => {
 
 const TablaProductos = ({ productos }) => {
 
-  const [filasTabla, setFilasTabla] = useState([]);
-
-
   return (
 
     <>
@@ -155,8 +152,8 @@ const TablaProductos = ({ productos }) => {
                   <td>{fila.codigoProducto}</td>
                   <td>{fila.descripcionProducto}</td>
                   <td>{fila.cantidad}</td>
-                  <td>{"$" +fila.valorUnitario}</td>
-                  <td>{"$" +fila.totalProducto}</td>
+                  <td>$ {fila.valorUnitario}</td>
+                  <td>$ {fila.total}</td>
                   <input hidden defaultValue={fila._id} name={`producto_${index}`} />
                 </tr>
               )
