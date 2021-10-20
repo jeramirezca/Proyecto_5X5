@@ -39,6 +39,8 @@ function Inicio() {
   const [cancelada, setCancelada] = useState(0); 
   const [totales, setTotales] = useState(0);
 
+  
+
   useEffect(() => {
     console.log('consulta', ejecutarConsulta);
     if (ejecutarConsulta) {
@@ -49,10 +51,10 @@ function Inicio() {
     let b = 0;
     let c = 0;
     let d = 0;
-    
-    ventas.map((venta) => {      
-      
   
+    ventas.map((venta) => {      
+      console.log(userData.email);
+      console.log(venta.vendedor.email);
       if(userData.email === venta.vendedor.email){
         console.log(venta);
   
@@ -73,7 +75,7 @@ function Inicio() {
           d+=1;
         }
 
-      }else if(userData.rol == "Administrador"){
+      }else if(userData.rol === "Administrador"){
 
         console.log("para probar", venta.totalVenta);
 

@@ -8,6 +8,7 @@ import { nanoid } from 'nanoid';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ventas from 'pages/ventas';
+import PrivateComponent from "./PrivateComponent";
 
 const obtenerVentas = async (setVentas, setEjecutarConsulta) => {
   const options = { method: 'GET', url: 'http://localhost:5000/ventas/', headers: {
@@ -213,6 +214,7 @@ function FormEditarVenta({ venta }) {
             <input name="idCliente" type="text" value={infoNuevoVenta.idCliente} placeholder="Ingrese el documento de identificación del cliente" className="form-control"
               onChange={(e) => setInfoNuevoVenta({ ...infoNuevoVenta, idCliente: e.target.value })} />
           </div>
+          <PrivateComponent roleList ={"Administrador"}>
           <div className="mt-20 prueba2">
             <label htmlFor="vendedor" className="semi-bold label-form color-label">Vendedor</label>
             <select name="vendedor" value={infoNuevoVenta.vendedor._id} className="form-control" defaultValue={infoNuevoVenta.vendedor} required
@@ -224,6 +226,7 @@ function FormEditarVenta({ venta }) {
 
             </select>
           </div>
+          </PrivateComponent>
           <div className="mt-20 prueba2">
             <label htmlFor="fechaVenta" className="table-top semi-bold label-form color-label">Fecha de Venta</label>
             <input name="fechaVenta" value={infoNuevoVenta.fechaVenta} type="date" className="form-control"

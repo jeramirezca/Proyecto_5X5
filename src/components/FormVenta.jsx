@@ -133,15 +133,15 @@ console.log("el valor de la venta, es", estado);
         <form ref={form} onSubmit={submitFormulario} className="table-top">
           <div>
             <label htmlFor="codigoVenta" className="semi-bold label-form color-label">Codigo</label>
-            <input name="codigoVenta" type="text" placeholder="Ingrese el codigo" className="form-control" />
+            <input name="codigoVenta" type="text" placeholder="Ingrese el codigo" className="form-control" required/>
           </div>
           <div className="mt-20 prueba2">
             <label htmlFor="cliente" className="semi-bold label-form color-label">Nombre del Cliente</label>
-            <input name="cliente" type="text" placeholder="Ingrese el nombre del cliente" className="form-control" />
+            <input name="cliente" type="text" placeholder="Ingrese el nombre del cliente" className="form-control" required/>
           </div>
           <div className="mt-20 prueba2">
             <label htmlFor="idCliente" className="semi-bold label-form color-label">Documento de Identificación del Cliente</label>
-            <input name="idCliente" type="text" placeholder="Ingrese el documento de identificación del cliente" className="form-control" />
+            <input name="idCliente" type="text" placeholder="Ingrese el documento de identificación del cliente" className="form-control" required/>
           </div>
           <PrivateComponent roleList ={"Administrador"}>
           <div className="mt-20 prueba2">
