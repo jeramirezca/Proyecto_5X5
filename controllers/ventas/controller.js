@@ -58,7 +58,7 @@ const crearVenta = async (datosVenta, callback)=>{
             await connection.collection('ventas').insertOne(datosVenta, callback);
 
           }         
-          
+        
         } else {
           return { err: 'Error en consulta de datos' };
         }
